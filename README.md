@@ -13,7 +13,7 @@ Follow these steps to reproduce the analysis:
 ### Download Repository
 
 1. Clone or download this repository.
-2. Navigate to the main project folder; it should contain the subfolders `analysis`
+2. Navigate to the main project folder; it should contain the subfolder `analysis`
 
 ```bash
 git clone https://github.com/MPUSP/ignatov_et_al_2025.git
@@ -22,13 +22,13 @@ cd ignatov_et_al_2025
 
 ### Download Alignment Data
 1. Download alignment data `alignment_data.zip` from [DRYAD](https://doi.org/10.5061/dryad.j0zpc86rg).
-2. Unzip the downloaded data and move the 'alignment_data' folder into the project's main folder.
+2. Unzip the downloaded data and move the `alignment_data` folder into the project's main folder.
 3. Confirm that your project's folder now contains the subfolders: `analysis`, and `alignment_data`.
-4. Inside the `alignment_data` folder, you should find two subfolders, such as `riboseq_data`, and `iclip_data`.
+4. Inside the `alignment_data` folder, you should find the two subfolders `riboseq_data`, and `iclip_data`.
 
 ### Setup R Environment
 
-In order to execute the R scripts, you will need to following R libraries:
+In order to execute the R scripts, you will need the following R libraries:
 
 - R (4.3.1)
 - stringr ()
@@ -61,4 +61,4 @@ Visit the MPUSP github page at https://github.com/MPUSP for more information on 
 
 ## Notes
 
-If you use the data or source code provided in this repository, please cite our manuscript: [Ignatov *et al.*, 2024](https://doi.org/10.1101/2024.08.26.607280).
+If you use the source code or data provided in this repository, please cite our manuscript: [Ignatov *et al.*, 2024](https://doi.org/10.1101/2024.08.26.607280).
