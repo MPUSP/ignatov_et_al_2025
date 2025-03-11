@@ -4,7 +4,7 @@ This repository contains the R scripts and source data to reproduce the main res
 
 ## Description of files and structure
 
-We structured the analysis and R scripts based on different high-throughput approaches applied. Each analysis folder contains a `README.md` file with explanatory text about the input files and how to perform the analyses.
+We structured the analysis, R scripts, and source data based on different high-throughput approaches applied in or study. Each analysis folder contains a `README.md` file with explanatory text about the input files and R scripts to perform the analyses.
 
 ## Installation
 
