@@ -26,6 +26,25 @@ cd ignatov_et_al_2025
 3. Confirm that your project's folder now contains the subfolders `analysis` and `data`.
 4. Inside the `data` folder, you should find three subfolders: `genome`, `iclip`, and `riboseq`.
 
+Your project folder should look like this now:
+
+```bash
+ignatov_et_al_2025/
+├── .gitignore
+├── LICENSE
+├── README.md
+├── analysis/
+│   └── 01_analysis_of_OOPS_and_RBS-ID
+│   └── 02_analysis_of_RNAseq_for_yebC_mutant
+│   └── 03_analysis_of_iCLIP_for_yebC
+│   └── 04_analysis_of_riboseq_for_yebC_mutant
+│   └── 05_analysis_of_proteomics_for_yebC_mutant
+└── data/
+    └── genome/
+    └── iclip/
+    └── riboseq/
+```
+
 ### Setup R environment
 
 In order to execute the R scripts, you will need the following R libraries:
