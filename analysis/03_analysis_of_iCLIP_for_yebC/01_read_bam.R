@@ -6,7 +6,7 @@ ifelse(!dir.exists("figures"), dir.create("figures"), "Folder 'figures' exists a
 
 # Read the GFF file
 gff <- read_table(
-  "input_files/220215_NC_002737.2_refseq_gene.gff",
+  "../../data/genome/220215_NC_002737.2_refseq_gene.gff",
   skip = 2,
   col_names = c(
     "seqid",
@@ -39,7 +39,7 @@ gff <- within(gff, {
 })
 
 # Extract nt sequences and add them as columns
-genome_seq <- readDNAStringSet("input_files/NC_002737.2.fa")[[1]]
+genome_seq <- readDNAStringSet("../../data/genome/NC_002737.2.fa")[[1]]
 gff$nt = rep(NA, nrow(gff))
 
 for(i in 1:nrow(gff)) {
@@ -84,7 +84,7 @@ for(sample_name in c(
   'wt_uv'
 )){
   #sample_name <- 'yebc_uv_1'
-  bam_file <- paste("../../alignment_data/iclip_data/iCLIP-0316-1124_", sample_name, ".bam", sep = "")
+  bam_file <- paste("../../data/iclip/iCLIP-0316-1124_", sample_name, ".bam", sep = "")
   bam <- readGAlignments(bam_file)
   
   bam_plus <- bam[strand(bam) == "+"]

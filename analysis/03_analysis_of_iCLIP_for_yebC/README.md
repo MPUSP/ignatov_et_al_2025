@@ -1,10 +1,10 @@
 # Analysis of iCLIP data for yebC
 
-Description and analysis of source data to replicate the primary results of the iCLIP data analysis for yebC. The BAM alignment files have to be downloaded from [DRYAD](https://doi.org/10.5061/dryad.j0zpc86rg) as explained in the projects main `README.md` file.
+Description and analysis of source data to replicate the primary results of the iCLIP data analysis for yebC. The input files have to be downloaded from [DRYAD](https://doi.org/10.5061/dryad.j0zpc86rg) as explained in the projects main `README.md` file.
 
 ## 1. Input files
 
-BAM files are located in the downloaded folder from DRYAD `alignment_data/iclip_data`. All other files are located in the folder `input_files`:
+Input files are located in the downloaded folder from DRYAD `data/genome` and `data/iclip`:
 
 **File:** `NC_002737.2.fa`
 

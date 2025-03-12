@@ -20,11 +20,11 @@ git clone https://github.com/MPUSP/ignatov_et_al_2025.git
 cd ignatov_et_al_2025
 ```
 
-### Download alignment data
-1. Download alignment data `alignment_data.zip` from [DRYAD](https://doi.org/10.5061/dryad.j0zpc86rg).
-2. Unzip the downloaded data and move the `alignment_data` folder into the project's main folder.
-3. Confirm that your project's folder now contains the subfolders: `analysis`, and `alignment_data`.
-4. Inside the `alignment_data` folder, you should find the two subfolders `riboseq_data`, and `iclip_data`.
+### Download genome and alignment data
+1. Download data `data.zip` from [DRYAD](https://doi.org/10.5061/dryad.j0zpc86rg).
+2. Unzip the downloaded data and move the `data` folder into the project's main folder.
+3. Confirm that your project's folder now contains the subfolders `analysis` and `data`.
+4. Inside the `data` folder, you should find three subfolders: `genome`, `iclip`, and `riboseq`.
 
 ### Setup R environment
 
