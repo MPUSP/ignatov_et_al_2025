@@ -1,7 +1,7 @@
 # Analysis of OOPS and RBS-ID
 Description and analysis of source data to reproduce the main results for the analysis of OOPS and RBS-ID data.
 
-## 1. Input Files
+## 1. Input files
 
 **File:** `mainAnnot.streptococcus_pyogenes_serotype_m1.txt`
 
@@ -43,7 +43,7 @@ Description and analysis of source data to reproduce the main results for the an
 - Urdaneta, E. C., et al. (2019). "Purification of cross-linked RNA-protein complexes by phenol-toluol extraction." Nat Commun 10(1): 990. - 172 RBPs (Salmonella Typhimurium)
 - Chu, L. C., et al. (2022). "The RNA-bound proteome of MRSA reveals post-transcriptional roles for helix-turn-helix DNA-binding and Rossmann-fold proteins." Nat Commun 13(1): 2883. - 384 RBPs (Staphylococcus aureus)
 
-## 2. Data Preparation
+## 2. Data preparation
 
 **Prepared file:** `Proteome annotation with RBP.tsv`
 
@@ -52,7 +52,7 @@ Description and analysis of source data to reproduce the main results for the an
 2. Modified ENSG column so that Spy_XXXX locus tag comes first in all cells. Added Spy_XXXX to two cells, where it was missing.
 3. Deleted P50470 (Immunoglobulin G-binding protein H) because could it not find the proper locus tag.
 4. Saved the result as `Proteome annotation.tsv`
-5. Used script `1-prepare-annotation.R` to add RBP annotation to `Proteome annotation.tsv` and saved the results as `Proteome annotation with RBP.tsv`.
+5. Used script `01-prepare-annotation.R` to add RBP annotation to `Proteome annotation.tsv` and saved the results as `Proteome annotation with RBP.tsv`.
 
 ---
 **Prepared file:** `RBS-ID results.tsv`
@@ -66,7 +66,7 @@ Description and analysis of source data to reproduce the main results for the an
 2. In Rep_1 removed all rows from “Lys” sample.
 3.	Merged all three replicates and created a column describing replicates. Saved as `RBS-ID results.tsv`.
 
-## 3. Data Analysis
+## 3. Data analysis
 
 **Script:** `02-rbsid-aas-sites-proteins.R`
 
