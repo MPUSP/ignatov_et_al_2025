@@ -52,7 +52,7 @@ Description and analysis of source data to reproduce the main results for the an
 2. Modified ENSG column so that Spy_XXXX locus tag comes first in all cells. Added Spy_XXXX to two cells, where it was missing.
 3. Deleted P50470 (Immunoglobulin G-binding protein H) because could it not find the proper locus tag.
 4. Saved the result as `Proteome annotation.tsv`
-b)	Added RBP annotation to “Proteome annotation.tsv” with “1-prepare-annotation.R”. Saved the results as “Proteome annotation with RBP.tsv”.
+5. Used script `1-prepare-annotation.R` to add RBP annotation to `Proteome annotation.tsv` and saved the results as `Proteome annotation with RBP.tsv`.
 
 ---
 **Prepared file:** `RBS-ID results.tsv`
