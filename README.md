@@ -1,6 +1,6 @@
 # Novel RNA-binding protein YebC enhances translation of proline-rich amino acid stretches in bacteria
 
-This repository contains the R scripts and source data to reproduce the main results presented in the manuscript [Ignatov *et al.*, 2024](https://doi.org/10.1101/2024.08.26.607280).
+This repository contains the R scripts and source data necessary to reproduce the main results presented in the manuscript by [Ignatov *et al.*, 2024](https://doi.org/10.1101/2024.08.26.607280).
 
 ## Description of files and structure
 

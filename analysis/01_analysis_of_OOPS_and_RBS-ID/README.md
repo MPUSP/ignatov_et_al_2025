@@ -1,5 +1,5 @@
-# Analysis of OOPS and RBS-ID
-Description and analysis of source data to reproduce the main results for the analysis of OOPS and RBS-ID data.
+# Analysis of OOPS and RBS-ID data
+Description and analysis of source data to reproduce the main results for the analysis of OOPS and RBS-ID datasets.
 
 ## 1. Input files
 
