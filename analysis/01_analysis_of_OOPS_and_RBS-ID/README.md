@@ -2,6 +2,7 @@
 Description and analysis of source data to reproduce the main results for the analysis of OOPS and RBS-ID datasets.
 
 ## 1. Input files
+Input file are located in the folder `Raw data`:
 
 **File:** `mainAnnot.streptococcus_pyogenes_serotype_m1.txt`
 

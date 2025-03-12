@@ -3,6 +3,8 @@
 Description and analysis of source data to replicate the primary results of the RNA-seq data analysis for the yebC mutant.
 
 ## 1. Input files
+Input files are located in the folder `input_files`:
+
 **File:** `gene_go_kegg_meta_info.tsv`
 
 **Description:** Information about *S. pyogenes* genes, compiled from the NCBI's RefSeq database and the eggNOG Firmicutes database (version 5.0.2).
