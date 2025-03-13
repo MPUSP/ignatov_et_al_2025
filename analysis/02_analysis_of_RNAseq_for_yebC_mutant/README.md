@@ -53,7 +53,7 @@ Input files are located in the folder `input_files`:
 
 **Description:** Uses all input files to prepare a single table with all RNA-seq DE results `rnaseq_results.tsv` and generates several figures:
 
-1. Merges all the data into a single table containing TPM values and results of DE analysis, and identifies differentially expressed genes.
+1. Merges all the data into a single table containing TPM values and results of DE analysis, and identifies differentially expressed genes. Saves the table as `rnaseq_results.tsv`.
 2. Generates correlation plots of differences in expression for the comparisons: `cor_log.pdf` and `cor_stat.pdf`.
 3. Generates MA plots for DE analysis of Δspy_0316 vs. WT in Log and Stat growth phases. Highlights the DE genes with the largest expression difference or only the speB gene in: `ma_log.pdf`, `ma_stat.pdf`, and `ma_stat_speB.pdf`.
 4. Generates Venn diagrams for the DE genes identified in the comparisons Δspy_0316 vs. WT and Δspy_0316 vs. comp in Log and Stat growth phases.

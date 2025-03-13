@@ -6,14 +6,22 @@ Input files are located in the folder `input_files`:
 
 **File:** `24C003_DVI_df_ProteinLevelData.tsv`
 
+**Description:** Results of MS proteomics.
+
 ---
 **File:** `24C003_DVI_df_comparisonResult.tsv`
+
+**Description:** Results of MS proteomics.
 
 ---
 **File:** `Proteome annotation.tsv`
 
+**Description:** This file was prepared in the analysis folder: [01_analysis_of_OOPS_and_RBS-ID](../01_analysis_of_OOPS_and_RBS-ID/).
+
 ---
 **File:** `rnaseq_results.tsv`
+
+**Description:** This file was generated in the analysis folder: [02_analysis_of_RNAseq_for_yebC_mutant](..//02_analysis_of_RNAseq_for_yebC_mutant/).
 
 ## 2. Data analysis
 
@@ -24,7 +32,7 @@ Input files are located in the folder `input_files`:
 ---
 **Script:** `02_de_graphics.R`
 
-**Description:** Plots MA plots for differentially expressed proteins and saves them as `ma_plot_log.pdf` and `ma_plot_stat.pdf`.
+**Description:** Generates MA plots for differentially expressed genes and saves them as `ma_plot_log.pdf` and `ma_plot_stat.pdf`.
 
 ---
 **Script:** `03_pausing_effect_on_expression.R`

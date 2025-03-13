@@ -61,7 +61,7 @@ Input files are located in the downloaded folder from DRYAD `data/genome` and `d
 
 **Script:** `02_clustering_and_graphics.R`
 
-**Description:** Uses the file `iclip.csv` as input:
+**Description:** Uses `iclip.csv` as input file to further analyse the iCLIP data:
 
 1. Plots the coverage information for 23S rRNA and saves it as `23S_coverage.pdf`.
 2. Clusters the CL sites located close to each other and saves the clusters to `cl_clusters.csv` and `cl_clusters.tsv`.
