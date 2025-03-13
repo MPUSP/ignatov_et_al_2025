@@ -1,6 +1,6 @@
 # Novel RNA-binding protein YebC enhances translation of proline-rich amino acid stretches in bacteria
 
-This repository contains the R scripts and source data necessary to reproduce the main results presented in the manuscript by [Ignatov *et al.* (2024)](https://doi.org/10.1101/2024.08.26.607280).
+This repository contains the R scripts and source data necessary to reproduce the main results presented in the manuscript by [Ignatov *et al.* (2024)](https://doi.org/10.1101/2024.08.26.607280). However, since the alignment data and genome information is serveral GB large, it is archived here: https://doi.org/10.17617/3.8PZNYF.
 
 ## Description of files and structure
 
@@ -21,7 +21,7 @@ cd ignatov_et_al_2025
 ```
 
 ### Download genome and alignment data
-1. Download data `data.zip` from [DRYAD](https://doi.org/10.5061/dryad.j0zpc86rg).
+1. Download data `data.zip` from [EDMOND](new doi here) (https://doi.org/10.5061/dryad.j0zpc86rg).
 2. Unzip the downloaded data and move the `data` folder into the project's main folder.
 3. Confirm that your project's folder now contains the subfolders `analysis` and `data`.
 4. Inside the `data` folder, you should find three subfolders: `genome`, `iclip`, and `riboseq`.
