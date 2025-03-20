@@ -79,5 +79,6 @@ In order to execute the R scripts, you will need the following R libraries:
 Visit the MPUSP github page at https://github.com/MPUSP for more information on other projects.
 
 ## References
+- Essential R libraries required are listed in the R setup section of this document.
 
 If you use the source code or data provided in this repository, please cite our manuscript: [Ignatov *et al.* (2024)](https://doi.org/10.1101/2024.08.26.607280).
