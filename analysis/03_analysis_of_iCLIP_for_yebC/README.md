@@ -1,10 +1,10 @@
 # Analysis of iCLIP data for yebC
 
-Description and analysis of source data to replicate the primary results of the iCLIP data analysis for yebC. The input files have to be downloaded from [DRYAD](https://doi.org/10.5061/dryad.j0zpc86rg) as explained in the projects main `README.md` file.
+Description and analysis of source data to replicate the primary results of the iCLIP data analysis for yebC. The input files have to be downloaded from [EDMOND](https://doi.org/10.17617/3.8PZNYF) as explained in the projects main [README](../../README.md) file.
 
 ## 1. Input files
 
-Input files are located in the downloaded folder from DRYAD `data/genome` and `data/iclip`:
+Input files are located in the downloaded data folder from `EDMOND`: `data/genome` and `data/iclip`
 
 **File:** `NC_002737.2.fa`
 
@@ -13,7 +13,7 @@ Input files are located in the downloaded folder from DRYAD `data/genome` and `d
 ---
 **File:** `220215_NC_002737.2_refseq_gene.gff`
 
-**Description:** *S. pyogenes* genome annotation file downloaded from NCBI RefSeq on 25.02.2022.
+**Description:** *S. pyogenes* genome annotation file downloaded from NCBI RefSeq on 15.02.2022.
 
 ---
 **File:** `iCLIP-0316-1124_yebc_uv_1.bam`
